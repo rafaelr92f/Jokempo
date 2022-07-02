@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 01 - INDES</title>
+</head>
+
+<body>
+   <div class="container">
+       <div class="linha">
+           <div class="box">
+               <img src="./assets/pedra.png" alt="" id="img_player01">
+           </div>
+           <div class="placar">
+               <span id="placar_player01">0</span>
+               <span>x</span>
+               <span id="placar_player02">0</span>
+           </div>
+           <div class="box">
+               <img src="./assets/pedra.png" alt="" id="img_player02">
+           </div>
+       </div>
+       <div class="linha">
+           <div class="circulo" id="1"><img src="./assets/pedra.png" alt=""></div>
+           <div class="circulo" id="2"><img src="./assets/papel.png" alt=""></div>
+           <div class="circulo" id="3"><img src="./assets/tesoura.png" alt=""></div>
+       </div>
+       
+       <div class="linha">
+           <div id="tela_jogar">
+                <button class="btn" id="btn_jogar">Jogar</button>
+           </div>
+
+           <div id="tela_recomecar">
+                <h2 id="resultado">Você venceu!</h2>
+                <button class="btn" id="btn_recomecar">Recomeçar</button>
+           </div>
+           
+       </div>
+   </div>
+        <script src="./app.js"></script>
+    </div>
+</body>
+
+</html>
+
+
